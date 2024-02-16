@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sketchBook {
+            width: 300px;
+            height: 300px;
+            border: 1px solid #333;
+        }
+    </style>
+    <script type="importMap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.161.0/build/three.module.js",
+                "GLTFLoader": "https://unpkg.com/three@0.141.0/examples/jsm/loaders/GLTFLoader.js"
+            }
+        }
+    </script>
+    <script type="module" src="./dog.js"></script>
+</head>
+
+<body>
+    <!-- 3D 모델을 보여줄 때 필요한 것 1.카메라 2.조명 3.배경 -->
+    <canvas class="sketchBook" id="canvas"></canvas>
+
+    
+    
+</body>
+</html>
